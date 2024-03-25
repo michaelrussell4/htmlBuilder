@@ -17,7 +17,7 @@ Each HTML attribute has a corresponding class defined in the ``htmlBuilder.attri
 Every ``HtmlTag`` is initialized with zero or more. If it receives one or more parameters, then the first must be a python iterable with zero or more ``HtmlTagAttribute`` instances.
 
 .. note::
-    Attribute class names are created by "camel casing" their corresponding HTML names. This process is done by uppercasing each letter after a hyphen(-) and then removing each of the hyphens. E.g.
+    Attribute class names are created by "title casing" their corresponding HTML names. This process is done by uppercasing each letter after a hyphen(-) and then removing each of the hyphens. E.g.
        - ``class`` -> ``Class``
        - ``id`` -> ``Id``
        - ``accept-charset`` -> ``AcceptCharset``
